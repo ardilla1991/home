@@ -14,7 +14,7 @@ import by.htp.home.entity.*;
  *  15. Создать объект класса Дом, используя классы Окно, Дверь. 
  *  Методы: закрыть на ключ, вывести на консоль количество окон, дверей.
  */
-public class MainHouse {
+public class MainHome {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -36,7 +36,7 @@ public class MainHouse {
 		house.addWindow(window2);
 		house.addWindow(window3);
 		house.addWindow(window4);
-		
+
 		HouseActions houseAction = new HouseActions();
 		houseAction.lockHouse(house);
 		houseAction.printWindowsCount(house);

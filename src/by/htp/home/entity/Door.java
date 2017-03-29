@@ -4,6 +4,7 @@ public class Door extends Aperture{
 	
 	private String type;
 	private int lock;
+	public final static String[] types = new String[]{"outer", "inner"};
 	
 	public Door(String type, int width, int height) {
 		this.setType(type);

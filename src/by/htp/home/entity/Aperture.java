@@ -1,9 +1,13 @@
 package by.htp.home.entity;
 
-public class Aperture {
+public abstract class Aperture {
 
 	private int width;
 	private int height;
+	
+	public Aperture() {
+		
+	}
 	
 	public int getWidth() {
 		return width;

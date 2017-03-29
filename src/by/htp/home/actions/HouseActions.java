@@ -1,11 +1,13 @@
 package by.htp.home.actions;
 
+import by.htp.home.entity.HouseBuild;
+
 public class HouseActions {
 	
 	public void lockHouse(HouseBuild house) {
 		
 		for ( int i = 0; i < house.getDoors().length; i++ ) {
-			if ( house.getDoors()[i].getType() == "outer" ) {
+			if ( "outer".equals(house.getDoors()[i].getType()) ) {
 				house.getDoors()[i].setLock();
 				System.out.println("House " + house + " is lock");
 			}
