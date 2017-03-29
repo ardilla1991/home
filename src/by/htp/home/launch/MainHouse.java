@@ -1,7 +1,7 @@
-package by.htp.rom4a16.launch;
+package by.htp.home.launch;
 
-import by.htp.rom4a16.actions.*;
-import by.htp.rom4a16.entity.*;
+import by.htp.home.actions.*;
+import by.htp.home.entity.*;
 /*
  * —оздать приложение, удовлетвор€ющее требовани€м, 
  * приведенным в задании. Ќаследование примен€ть

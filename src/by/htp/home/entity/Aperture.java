@@ -1,4 +1,4 @@
-package by.htp.rom4a16.entity;
+package by.htp.home.entity;
 
 public class Aperture {
 

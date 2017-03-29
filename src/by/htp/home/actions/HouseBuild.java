@@ -1,7 +1,7 @@
-package by.htp.rom4a16.actions;
+package by.htp.home.actions;
 
-import by.htp.rom4a16.entity.Door;
-import by.htp.rom4a16.entity.Window;
+import by.htp.home.entity.Door;
+import by.htp.home.entity.Window;
 
 public class HouseBuild {
 

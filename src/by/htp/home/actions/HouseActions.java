@@ -1,4 +1,4 @@
-package by.htp.rom4a16.actions;
+package by.htp.home.actions;
 
 public class HouseActions {
 	
